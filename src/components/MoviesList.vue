@@ -1,6 +1,6 @@
 <template>
   <BContainer>
-    <h3 class="list-title">test 1</h3>
+    <h3 class="list-title">test 2</h3>
     <BRow>
       <template v-if="isExist">
         <BCol cols="3" v-for="(movie, key) in list" :key="key">
